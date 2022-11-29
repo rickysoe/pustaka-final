@@ -3,8 +3,7 @@
     <div class="container my-auto">
         <div class="copyright text-center my-auto">
 
-            <span>Copyright &copy; Web Programming Univ. BSI with 
-Bootstrap SB Admin 2 <?= date('Y'); ?></span>
+            <span>Copyright &copy; Web Programming Univ. BSI with Bootstrap SB Admin 2 <?= date('Y'); ?></span>
         </div>
     </div>
 </footer>
@@ -31,8 +30,7 @@ aria-labelledby="exampleModalLabel" aria-hidden="true">
             </div>
             <div class="modal-body">Pilih "Logout" di bawah jika kamu yakin sudah selesai.</div>
             <div class="modal-footer">
-                <button class="btn btn-secondary" type="button"
-data-dismiss="modal">Cancel</button>
+                <button class="btn btn-secondary" type="button"data-dismiss="modal">Cancel</button>
                 <a class="btn btn-primary" href="<?=base_url('autentifikasi/logout'); ?>">Logout</a>
             </div>
         </div>
